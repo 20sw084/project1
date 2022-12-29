@@ -26,8 +26,8 @@ class _HorizontalCardState extends State<HorizontalCard> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("Income", style: textStyle(context),),
-                  Text("10000 PKR", style: priceTextStyle(context),),
+                  Text("Completed Jobs", style: textStyle(context),),
+                  Text("25/30", style: priceTextStyle(context),),
                 ],
               ),
             ),
@@ -39,8 +39,8 @@ class _HorizontalCardState extends State<HorizontalCard> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Text("Expense", style: textStyle(context),),
-                  Text("10000 PKR", style: priceTextStyle(context),),
+                  Text("Overall Progress", style: textStyle(context),),
+                  Text("83%", style: priceTextStyle(context),),
                 ],
               ),
             ),
